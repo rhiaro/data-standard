@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, OpenOwnership
+# This file is distributed under the same license as the Beneficial Ownership Data Standard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beneficial Ownership Data Standard 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-20 22:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../schema/index.rst:2
+#: 3b43524910a8464aa388b330eb3d3e22
+msgid "Data Schema"
+msgstr ""
+
+#: ../../../schema/index.rst:6
+#: 6a381613ec3b4f5b8da5c6dc8d6ea4e2
+msgid "This is v0.2 of the Beneficial Ownership Data Standard. It includes updates to the data model and additional codelist information. Implementers should be aware that future changes are anticipated, before a version 1.0 release. See the :doc:`Changelog <changelog>` and `About <../about>`_ pages for more information."
+msgstr ""
+
+#: ../../../schema/index.rst:8
+#: c52ce53dc2604f44b5ea2163c7ed3419
+msgid "**MUST** and **SHOULD** are used in the schema to denote required and recommended elements of the Standard, as defined in `RFC2119 <https://tools.ietf.org/html/rfc2119>`_."
+msgstr ""
+
+#: ../../../schema/index.rst:10
+#: 5c74622a103f408f83b1e8327e20d2d7
+msgid "BODS provides a common data model for encapsulating information about the :doc:`beneficial ownership <../primer/whatisbo>` of corporate entities and related arrangements, to facilitate :doc:`sharing of information <../primer/whatisthebods>`. In particular, the :any:`data model <key-concepts>` captures direct and indirect relationships of ownership and control by entities (such as companies) by other entities (including trusts and joint shareholdings) or by natural persons."
+msgstr ""
+
+#: ../../../schema/index.rst:12
+#: d1b4b2840f324d99b9bcf77d81c09f81
+msgid "The data model, as specified here in the Data Schema, is intended to represent, or help identify, ultimate beneficial ownership: the natural person(s) who ultimately benefit from, or control, an entity."
+msgstr ""
+
+#: ../../../schema/index.rst:14
+#: 263ebefdfafd416e8161fc0f77b9009f
+msgid "The :doc:`schema browser <schema-browser>` provides a way of digging through the schema's structure, showing how its components and fields fit together. Alternatively, the :doc:`schema reference <reference>` presents these elements and their descriptions in easy-to-reference tables."
+msgstr ""
+
+#: ../../../schema/index.rst:16
+#: f0e6c3433fb94c6395523e55fb5bee6a
+msgid "Further considerations regarding the validation, publishing, and lifecycle of data are included in `technical guidance <guidance>`_."
+msgstr ""

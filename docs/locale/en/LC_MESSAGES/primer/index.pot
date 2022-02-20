@@ -1,0 +1,32 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, OpenOwnership
+# This file is distributed under the same license as the Beneficial Ownership Data Standard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beneficial Ownership Data Standard 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-20 22:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../primer/index.rst:2
+#: 5097b0665f454a1589543b2994fe6032
+msgid "Primer"
+msgstr ""
+
+#: ../../../primer/index.rst:4
+#: 0ec314b888344143b3229ddc06ba93cb
+msgid "This Primer sets out to explain the basics of Beneficial Ownership and the basics of a data standard handling Beneficial Ownership."
+msgstr ""
+
+#: ../../../primer/index.rst:6
+#: c82553db3f3e48298e2dc843aafe8e6c
+msgid "People new to the concept of Beneficial Ownership will want to know :doc:`what it is <whatisbo>` and :doc:`why it's important <whyisbo>`. Looking then at :doc:`what data is needed <whatisbodata>` to describe a Beneficial Ownership chain, we can :doc:`understand the Beneficial Ownership Data Standard <whatisthebods>` as a kind of template. Finally we look at the :doc:`scope of the Standard <whatdoesbodscover>` and what it offers."
+msgstr ""

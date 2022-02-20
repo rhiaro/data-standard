@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, OpenOwnership
+# This file is distributed under the same license as the Beneficial Ownership Data Standard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beneficial Ownership Data Standard 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-20 22:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../schema/guidance/identifiers.rst:4
+#: 76aa5275311e48388b29f3a07e3a0972
+msgid "Real world identifiers"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:6
+#: 1168137502684cc382c0b4dcfbd3dcef
+msgid "To create a link between statements, and the real-world organisations and people they relate to, statements may include a range of identifying information. We use a common :any:`Identifier object <schema-identifier>` with the following properties:"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:8
+#: d97335d1b02b4db59971c110323329e1
+msgid "``scheme`` should be a value from a codelist of known identifier sources. Separate codelists exist for entities and persons. See below."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:10
+#: d7932d442106405696035602df87591e
+msgid "``id`` should be the value assigned to the relevant entity or person in that scheme."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:12
+#: 8798aafaa9064d22b4a58531b6c51c72
+msgid "``uri`` may be used to provide a canonical URI for the entity or person within the scheme."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:14
+#: 390d25d8c2e84371bbdad311db5358e8
+msgid "``schemeName`` should be the name of the list, registry or ID system."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:16
+#: e15766d7b1614619a63916f26bfa75cc
+msgid "A good-quality Identifier will contain ``scheme`` and ``id`` values which will uniquely identify an entity or person. Where these are not available, ``schemeName`` can be used to refer to the registration system in which the person or entity is known to be represented. When publishing an Identifier object, a value for either ``scheme`` or ``schemeName`` MUST be present."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:20
+#: 8d1807fb31cc48e484690dfd76f78483
+msgid "Multiple Identifiers"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:22
+#: bbfd9fd331584c748bd74a858b0f89bf
+msgid "A source system might hold the following identifying information for a single company:"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:24
+#: c36427c8001b4694b3c632c4a88222b3
+msgid "A registered company number; and"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:25
+#: 65ad7829884a4b31998060dbb5d8452b
+msgid "A VAT number;"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:27
+#: 4345da82218140498df7f0f564ea329e
+msgid "In this case, two entries can be created in the Entity statement's ``identifiers`` array:"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:42
+#: dd63360aa3b7430a9744726204e70f0a
+msgid "Person Statements may also hold an array of Identifiers."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:46
+#: bf4f43d91ac945d6a022fc21404d5e72
+msgid "Entity Identifiers"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:48
+#: d716775073364826a932927af96e0dbc
+msgid "The values for ``scheme`` within an Entity Statement Identifier should be drawn from the `http://org-id.guide <http://org-id.guide>`_ codelist. This contains details of hundreds of company registers and other identifier sources."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:50
+#: 8efbc60dc6bd4157927f1ec996907419
+msgid "Where the publisher is providing an internal identifier, the publisher should either:"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:52
+#: be57de5f583543f99452a515d254a482
+msgid "Publish their full list of internal identifiers, and register this list with the `http://org-id.guide <http://org-id.guide>`_ codelist; or"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:53
+#: 57136a176b28474197206edb0c09bc5e
+msgid "Use MISC-{Publisher_Name} as the scheme"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:57
+#: 35667ca3299947669dbe108f0e7dba84
+msgid "Person Identifiers"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:60
+#: e20bfb9ff68e460598b5785dbb17e872
+msgid "System Identifiers"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:62
+#: d01fca2c63c1400aa2469c006677eef9
+msgid "If the source system has assigned a unique identifier to individual persons, and this identifier can be published, then this should be included with the scheme 'MISC-{Publisher Name}'."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:64
+#: 9e5355f0514243e4a1ae0ec52c4c4fcb
+msgid "For example, a beneficial ownership reporting system may maintain a database table of 'person' records, each with its identifier as a primary key. So that users can recognise references to the same person mentioned in separate statements, this identifier should be included in the published data, either in raw form, or modified to ensure a unique value."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:68
+#: 628571108f8b466a9e565ae9d9a7f958
+msgid "Shared identifiers"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:70
+#: 3c42b0cd58ad4b4aa9dab8ddcaaeb580
+msgid "If the source system has collected one or more known identification numbers for a person, and these can be published without privacy or security risks, then these should also be included in the ``PersonStatement.identifiers`` array."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:72
+#: 1e2a07924b9e4bc69fc643d636d652f9
+msgid "In such cases, the values for ``scheme`` should be based on the following pattern:"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:74
+#: f7d941c1d4bd40f09be13c04792ec779
+msgid "{JURISDICTION}-{TYPE}"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:76
+#: 2bf407b56db74f4a8330219d58d6d9c6
+msgid "Where jurisdiction is expressed using the extended ISO 3-digit country codes list proposed by in `ICAO Document 9303 §5 <http://www.icao.int/publications/Documents/9303_p3_cons_en.pdf>`_ (pages 22-29)."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:78
+#: 6f13e5f8a5484b73b2cb6f618a314e77
+msgid "For example, a passport number from Afghanistan would have the scheme:"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:80
+#: 3a4dc008168744698619f6d8ff72bc9b
+msgid "> AFG-PASSPORT-{NUMBER}"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:82
+#: 6bf08da22fe84f8c998df39d41bd7a92
+msgid "Where the publisher is providing an internal identifier, these should use 'MISC-{Publisher_Name}' as the scheme."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:86
+#: e55e4b999c964a2aae2d8dfb78814fdf
+msgid "When using BODS to provide open data, it is important to ensure any person identifiers are suitable for publication under national laws and data protection frameworks."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:88
+#: 3a41eae1c983487a81a9c93c5deb3448
+msgid "Most of the identifier types listed below **are not** suitable for publication as part of an open dataset."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:91
+#: 06dc3ab4390f4d38baf11fda7bfe0a48
+msgid "The following identification types are currently documented. Suggestions for new types should be made through the `issue tracker <https://github.com/openownership/data-standard/issues>`_."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:94
+#: 0b447c5497984647b503644e96d0cd15
+msgid "PASSPORT"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:96
+#: 0ae704f996df4e198a949164867f8a74
+msgid "Passport numbers should follow the format of the identifier (second) line in a machine-readable passport (see `Appendix B to Part 4 of ICAO Doc 9303 <http://www.icao.int/publications/Documents/9303_p4_cons_en.pdf>`_) including at least the document number."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:98
+#: 1ccaaa959c9c4798ab7915b4ca734b45
+msgid "Parsers should be able to extract the document number from the first 9 characters, and to access any subsequent information supplied according to the ICAO format."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:101
+#: 04d309e2ef774f05b98680dcb1b5fd53
+msgid "TAXID"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:103
+#: 8c8ef1f00e6b4a74b9534733fd89e5e3
+msgid "Country taxpayer identification systems vary. Where specific guidance on including numbers from a particular jurisdiction is required, this may be included here in future."
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:106
+#: 049a8d9f454f446ab8104be6cec20382
+msgid "IDCARD"
+msgstr ""
+
+#: ../../../schema/guidance/identifiers.rst:108
+#: 8d43fb8265a944b8bd8e9f5709aec6b5
+msgid "Country ID card systems vary. Where specific guidance on including numbers from a particular jurisdiction is required, this may be included here in future."
+msgstr ""

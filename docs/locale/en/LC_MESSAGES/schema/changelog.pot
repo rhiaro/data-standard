@@ -1,0 +1,377 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, OpenOwnership
+# This file is distributed under the same license as the Beneficial Ownership Data Standard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beneficial Ownership Data Standard 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-20 22:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../schema/changelog.rst:5
+#: 0200a68ac6f9426fa03b12abd464d15d
+msgid "ChangeLog"
+msgstr ""
+
+#: ../../../schema/changelog.rst:9
+#: 23fc552d0181433fae22ed1fa80f6b02
+msgid "This is v0.2 of the Beneficial Ownership Data Standard. It includes updates to the data model and additional codelist information."
+msgstr ""
+
+#: ../../../schema/changelog.rst:11
+#: b7fdac3881f5477b8d6223b3c1c442c1
+msgid "Implementers should be aware that future changes are anticipated, before a version 1.0 release. However, from this v0.2 release onwards, any structural changes, or major definitional changes will only take place following consultation, with a clear changelog provided, and with the documentation of previous versions maintained in archive form."
+msgstr ""
+
+#: ../../../schema/changelog.rst:13
+#: c3a89835dd94466c94c73b6b4705614e
+msgid "The schema specifies a **structure**, **fields** and **codelists** but does not yet enforce validation constraints on most fields."
+msgstr ""
+
+#: ../../../schema/changelog.rst:16
+#: 1850789e12b643149946e5d9868c9bca
+msgid "[Unreleased]"
+msgstr ""
+
+#: ../../../schema/changelog.rst:19
+#: ../../../schema/changelog.rst:46
+#: ../../../schema/changelog.rst:113
+#: 180ab36574c54e6aa78d63d6148f519a
+#: 7c221df02c3e4a50957da8bd11b95e6b
+#: 3bcffb2d57b54455bf1614e8bc6dd099
+msgid "Added"
+msgstr ""
+
+#: ../../../schema/changelog.rst:20
+#: 3c70c12f29f44330ae5bd89d012b4b5c
+msgid "Support for describing the traded securities and status of a publicly listed company (PLC): a new ``publicListing`` object has been added to Entity Statements."
+msgstr ""
+
+#: ../../../schema/changelog.rst:21
+#: 3a3f0cd4a612446d98ef3b2d9b0c349b
+msgid "``Country.name`` is now a required field (previously it was defined as \"MUST\" in the description)."
+msgstr ""
+
+#: ../../../schema/changelog.rst:22
+#: 7278fb76ec344608a868e60ed0d27b1b
+msgid "``Jurisdiction.name`` is now a required field (previously it was defined as \"MUST\" in the description)."
+msgstr ""
+
+#: ../../../schema/changelog.rst:23
+#: 68245a9b7d0c4de4bf2e42a88bdf1099
+msgid "``SecuritiesListing.stockExchangeJurisdiction`` has minimum and maximum lengths to match the two lists that values could be from."
+msgstr ""
+
+#: ../../../schema/changelog.rst:24
+#: 05d7dae00751486ea72c0125928d3e90
+msgid "Annotations have ``oneOfEnumSelectorField`` added to provide hints to validation code which will produce better error messages."
+msgstr ""
+
+#: ../../../schema/changelog.rst:27
+#: ../../../schema/changelog.rst:75
+#: ../../../schema/changelog.rst:120
+#: 2d423a8664f243f58973b0dd16359841
+#: 048ac1f439fd42d087270455655e2d00
+#: 03ccab7da9274ba7915f48aafae8021c
+msgid "Changed"
+msgstr ""
+
+#: ../../../schema/changelog.rst:28
+#: 95791ab7ee0f43ca8f1ef865b679c41f
+msgid "The ``interestType`` and ``unspecifiedReason`` codelist codes have been changed from using hyphens to camelCase."
+msgstr ""
+
+#: ../../../schema/changelog.rst:29
+#: a1473c81c29542efac8fab37fc450d0c
+msgid "``hasPepStatus`` and ``pepDetails`` are replaced with ``politicalExposure`` object  that contains ``status`` and ``details`` properties."
+msgstr ""
+
+#: ../../../schema/changelog.rst:30
+#: 5a0e8ab36e4d4b82aa86ee84026f6aab
+msgid "Required fields `statementPointerTarget` and `motivation` are moved from inside the `anyOf` statement to the top level, as they apply to all motivation types."
+msgstr ""
+
+#: ../../../schema/changelog.rst:31
+#: f7cd7ef199264ad6840ce79fffc76f7a
+msgid "Clarified ``Address.country`` is from the ISO 3166-1 list (previously it was unclear which ISO list was meant and used \"digit\" when it meant \"letter\")."
+msgstr ""
+
+#: ../../../schema/changelog.rst:32
+#: f907a2b7ffb84efab32eeae0944a899e
+msgid "Clarified ``Country.code`` is from the ISO 3166-1 list (previously it was unclear which ISO list was meant and used \"digit\" when it meant \"letter\")."
+msgstr ""
+
+#: ../../../schema/changelog.rst:33
+#: f3c52a16f6e841d8891e0ca959fbc263
+msgid "Clarified ``Jurisdiction.code`` is from the ISO 3166-1 or ISO 3166-2 list (previously it was unclear which ISO list was meant and used \"digit\" when it meant \"letter\")."
+msgstr ""
+
+#: ../../../schema/changelog.rst:34
+#: b64b8f00c57f479e9da19d7acc8690dc
+msgid "Clarified ``SecuritiesListing.stockExchangeJurisdiction`` is from the ISO 3166-1 or ISO 3166-2 list (previously it was unclear which ISO list was meant and used \"digit\" when it meant \"letter\")."
+msgstr ""
+
+#: ../../../schema/changelog.rst:35
+#: 6d5492785d4846c388548e254ab0fd2e
+msgid "Annotations changes from a ``anyOf`` to a ``oneOf``. This is technically correct and also is needed to improve validation messages."
+msgstr ""
+
+#: ../../../schema/changelog.rst:36
+#: 0b499ecc5907484ebcb2f98404a20fd0
+msgid "Descriptions of ``statementType``."
+msgstr ""
+
+#: ../../../schema/changelog.rst:37
+#: 4f06daf886334da88a04a3ea2e0c0cb4
+msgid "Do not reference codelists in ``statementType`` - fixes issues caused by the way we use this field to select which subschema to use for validation. This should have no change for anyone using the compiled schema but may affect anyone using the files in ``schema/`` directly."
+msgstr ""
+
+#: ../../../schema/changelog.rst:38
+#: 712ab195659b47e3a31c36687e024dcd
+msgid "`interestLevel` renamed to `directOrIndirect`."
+msgstr ""
+
+#: ../../../schema/changelog.rst:39
+#: cdc5c01de35f4a97a8cb3c076a5337bb
+msgid "The ``interestType`` codelist codes have had `OfTrust` removed so they refer to any type of legal arrangement. Their descriptions have been edited to reflect these changes. `beneficiaryOfTrust` has been changed to `beneficiaryOfLegalArrangement` to avoid ambiguity and `otherInfluenceOrControlOfTrust` has been removed."
+msgstr ""
+
+#: ../../../schema/changelog.rst:43
+#: fa300149ee514072bd475bf4ec691d17
+msgid "[0.2] - 2019-06-30"
+msgstr ""
+
+#: ../../../schema/changelog.rst:47
+#: 6fc7cffdbaac41629ebafdad13dc7e4c
+msgid "Support for representing details of indirect beneficial ownership relationships (where a beneficial owner owns or controls an entity through intermediaries):"
+msgstr ""
+
+#: ../../../schema/changelog.rst:49
+#: fe32115977c7445aaf5a25d730be5ff5
+msgid "A required ``isComponent`` property has been added to all three Statement objects. It takes a boolean value and indicates whether a Statement represents part of a primary indirect ownership-or-control relationship."
+msgstr ""
+
+#: ../../../schema/changelog.rst:50
+#: 68369160065e4235a5c488d00aafb8d7
+msgid "A ``componentStatementIDs`` property has been added to Ownership-or-control Statements. It takes an array of Statement IDs, indicating which component statements provide detail about the parent Ownership-or-control Statement."
+msgstr ""
+
+#: ../../../schema/changelog.rst:52
+#: 27582147edfa43118aa02a32de943b14
+msgid "A required ``publicationDetails`` property has been added to all three Statement objects. It represents metadata for Statements: information about their original publisher. Sub-properties (and their sub-properties) are:"
+msgstr ""
+
+#: ../../../schema/changelog.rst:54
+#: bff557dbb6c241b6ab2a308e2350aad8
+msgid "``publicationDate``\\*"
+msgstr ""
+
+#: ../../../schema/changelog.rst:55
+#: b9efd63d52df4792a68422f0f76be6d5
+msgid "``bodsVersion``\\*"
+msgstr ""
+
+#: ../../../schema/changelog.rst:56
+#: d2d9813cfa8a41d58f6c83229fecb4c7
+msgid "``license``"
+msgstr ""
+
+#: ../../../schema/changelog.rst:57
+#: be4da49d9cdc4a4988cc76f09c05991d
+msgid "``publisher``\\* (``name``, ``url``)"
+msgstr ""
+
+#: ../../../schema/changelog.rst:59
+#: 63644412da5f4a0f8550efb9e07f7158
+msgid "\\* required"
+msgstr ""
+
+#: ../../../schema/changelog.rst:61
+#: 1e69673192b34f6d87163584a2ccdc4b
+msgid "A ``hasPepStatus`` property (taking a boolean value) has been added to Person Statements. It is only to be used where disclosure requirements require that Politically Exposed Persons are flagged."
+msgstr ""
+
+#: ../../../schema/changelog.rst:63
+#: a92bc7b2b4784ad19eeee6ebef9750d7
+msgid "PEP Status objects now have the additional properties ``missingInfoReason`` and ``source``."
+msgstr ""
+
+#: ../../../schema/changelog.rst:65
+#: 6d680ac4edcd47f2b102ca83fd37b3ab
+msgid "A ``taxResidencies`` property has been added to Person Statements. It takes an array of Country objects."
+msgstr ""
+
+#: ../../../schema/changelog.rst:67
+#: 090491eb4285457e8b2843c053922781
+msgid "Support for more structured accounts of missing and anonymised data:"
+msgstr ""
+
+#: ../../../schema/changelog.rst:69
+#: 695228cc7ef644db977b7d4223087987
+msgid "``unspecifiedPersonDetails`` has been added to Person Statements (with a required ``reason`` sub-property)"
+msgstr ""
+
+#: ../../../schema/changelog.rst:70
+#: e3ed4edbe6b44e6f9607b58807212846
+msgid "``unspecifiedEntityDetails`` has been added to Entity Statements (with a required ``reason`` sub-property)"
+msgstr ""
+
+#: ../../../schema/changelog.rst:72
+#: 2efababf593743409bedeb7095eaf08b
+msgid "The ``reason`` sub-property draws on the Unspecified Reason codelist (as does the Ownership-or-control Statement's ``interestedParty.unspecified`` property)."
+msgstr ""
+
+#: ../../../schema/changelog.rst:76
+#: 51370e83c0b8493d9e6285c7708edeb3
+msgid "The ``pepStatus`` property of Person Statements has been renamed ``pepStatusDetails`` (and still references an array of PEP Status objects)."
+msgstr ""
+
+#: ../../../schema/changelog.rst:78
+#: 2f382d12e8964f47a7b64796b0a4033f
+msgid "The ``personType`` property of Person Statements is now required."
+msgstr ""
+
+#: ../../../schema/changelog.rst:80
+#: e689a3215fc84a74a41633bd51e89e71
+msgid "If ``Annotation.motivation`` is 'linking', ``Annotation.url`` is required."
+msgstr ""
+
+#: ../../../schema/changelog.rst:82
+#: d7a7ffa71ba44d71be5df12c6a735252
+msgid "The Interest Type codelist has been amended:"
+msgstr ""
+
+#: ../../../schema/changelog.rst:84
+#: 611a02e357394444a87006fbe35b6b85
+msgid "'influence-or-control' is renamed 'other-influence-or-control'"
+msgstr ""
+
+#: ../../../schema/changelog.rst:85
+#: 61a4895838e346638045cc443e67873a
+msgid "'rights-to-surplus-assets' is renamed 'rights-to-surplus-assets-on-dissolution'"
+msgstr ""
+
+#: ../../../schema/changelog.rst:86
+#: 8be4d4b7f1094a06aeaab618bd8280fd
+msgid "'rights-granted-by-contract' has been added"
+msgstr ""
+
+#: ../../../schema/changelog.rst:87
+#: 6573adbb8ec44acaaaf9dda5be6d279d
+msgid "'conditional-rights-granted-by-contract' has been added"
+msgstr ""
+
+#: ../../../schema/changelog.rst:89
+#: cfebb003682b48c6baceed225242f7ec
+msgid "The Address Type codelist has been amended:"
+msgstr ""
+
+#: ../../../schema/changelog.rst:91
+#: 50dda2f165aa4a66aeacabc1681b16cb
+msgid "'home' has been removed (since 'residence' can be used instead)"
+msgstr ""
+
+#: ../../../schema/changelog.rst:92
+#: 5809e7f0723d45b8bf0778c3b03f5474
+msgid "'business' has been added"
+msgstr ""
+
+#: ../../../schema/changelog.rst:94
+#: 0240c39372b94ec5a34fa7876dc28054
+msgid "The Name Type codelist has been amended:"
+msgstr ""
+
+#: ../../../schema/changelog.rst:96
+#: 90db5d3fe0aa4a3db5e4f73033f29112
+msgid "'alias', 'aka', and 'nick' have all been removed. They are replaced by 'alternative'"
+msgstr ""
+
+#: ../../../schema/changelog.rst:97
+#: 8901870bc12645229abe76f222b3fcc3
+msgid "'transliteration' has been added"
+msgstr ""
+
+#: ../../../schema/changelog.rst:99
+#: 5baae1a5e77b4e40aec1fe8cf6dbc051
+msgid "The Unspecified Reason codelist has been amended:"
+msgstr ""
+
+#: ../../../schema/changelog.rst:101
+#: d4e6d8799c6c41c8a7964166af6abb28
+msgid "'information-unknown-to-publisher' has been added"
+msgstr ""
+
+#: ../../../schema/changelog.rst:103
+#: 3c8c124d4f48419aa5e4cba693219e8e
+msgid "All codelist codes now have descriptions."
+msgstr ""
+
+#: ../../../schema/changelog.rst:106
+#: ../../../schema/changelog.rst:126
+#: 5df1fb37194242a88aab47e92cc33bb9
+#: 969730740a0045809678337543c34eb4
+msgid "Removed"
+msgstr ""
+
+#: ../../../schema/changelog.rst:107
+#: e00e493fe35e4d6aa3038a400cd283ce
+msgid "The ``missingInfoReason`` property has been removed from Person and Entity Statements. It has been replaced with ``unspecifiedPersonDetails`` and ``unspecifiedEntityDetails`` respectively."
+msgstr ""
+
+#: ../../../schema/changelog.rst:110
+#: 401f3e71860c424ca666d7ec6c80347a
+msgid "[0.1] - 2018-12-12"
+msgstr ""
+
+#: ../../../schema/changelog.rst:114
+#: 8aa2c65a7c4b4799a72eca1739940949
+msgid "``beneficialOwnershipOrControl`` property added to Interest object. Takes a boolean value. Can be used to assert that an interest between a natural person and an entity makes that person a beneficial owner."
+msgstr ""
+
+#: ../../../schema/changelog.rst:115
+#: 91beb7c6c40b4af6be613156881f14a0
+msgid "``pepStatus`` property added to Person Statement object. Allows a natural person to be recorded as a politically exposed person (with a related reason, jurisdiction, start date and end date)."
+msgstr ""
+
+#: ../../../schema/changelog.rst:116
+#: 96e9bc6c69644855810a9bd5394aad26
+msgid "``annotations`` property added to all three types of statement. Annotations provide a way of including additional (structured) data or transforming existing data in a targeted way."
+msgstr ""
+
+#: ../../../schema/changelog.rst:117
+#: b483ededc17842598d163edf69d84ebc
+msgid "An ``unspecified`` property replaces the ``nullParty`` option for interested parties.  An unspecifiedReason codelist provides options for describing why an interested party is not recorded."
+msgstr ""
+
+#: ../../../schema/changelog.rst:121
+#: d8c524f82f194f3fa9e6263151528695
+msgid "The interestType codelist has been extended to include interests in trusts."
+msgstr ""
+
+#: ../../../schema/changelog.rst:122
+#: fec2b5fa4b8040efa87af4fa95ec630f
+msgid "The structure of BODS-formatted data has been flattened, to remove extraneous nesting and facilitate serialization using JSON Lines."
+msgstr ""
+
+#: ../../../schema/changelog.rst:123
+#: 4c8a529c33bd445da30f1d7bf4e4714c
+msgid "'Beneficial ownership statements' have been renamed 'Ownership-or-control statements' to reflect the scope of their use."
+msgstr ""
+
+#: ../../../schema/changelog.rst:127
+#: 5d1d51f5792d4ff1bbb32279cb6e8446
+msgid "Arrays of ``statementGroup`` objects (each object with its own statement group id) are no longer used to package arrays of statements. This reflects a flattening of the structure of BODS formatted data."
+msgstr ""
+
+#: ../../../schema/changelog.rst:128
+#: 6499f9e13ba24b95aab5085944191b09
+msgid "The ``nullParty`` option for interested parties. See ``unspecified`` property in the Added section above."
+msgstr ""

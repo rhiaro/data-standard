@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, OpenOwnership
+# This file is distributed under the same license as the Beneficial Ownership Data Standard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beneficial Ownership Data Standard 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-20 22:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../about/index.rst:2
+#: 625bac540c7a4fd2bc30750171c98868
+msgid "About"
+msgstr ""
+
+#: ../../../about/index.rst:4
+#: ab8b95e992184e2d912599153ed72791
+msgid "This website contains the draft specification of the Beneficial Ownership Data Standard (version 0.2) plus support for its use. The Standard provides a structured template for describing beneficial ownership as machine-readable data."
+msgstr ""
+
+#: ../../../about/index.rst:9
+#: 85db27f929b34b499be080c918a5fe82
+msgid "Background"
+msgstr ""
+
+#: ../../../about/index.rst:12
+#: b433f53ef5aa4390a757c95e2e00de8b
+msgid "Money laundering, tax evasion and obscure chains of ownership are transnational problems that require a transnational solution. Civil society, government and business can all benefit from greater transparency around :ref:`beneficial ownership <what-is-bo>`."
+msgstr ""
+
+#: ../../../about/index.rst:14
+#: 5867bd83a4694549a1b66a21b370c267
+msgid "The Beneficial Ownership Data Standard enables this transparency by providing a solid conceptual and practical framework for collecting and publishing beneficial ownership data, resulting in data that is interoperable, more easily reused, and of higher quality."
+msgstr ""
+
+#: ../../../about/index.rst:16
+#: 29da618fbb894f0b9ba8b2b8351a4dd2
+msgid "The Standard is being developed under the guidance of a :doc:`working group <governance>` co-chaired by Open Ownership. More details about the organisation are available at www.openownership.org."
+msgstr ""
+
+#: ../../../about/index.rst:21
+#: 8d816f9549ec4734b64ad019e6405ebc
+msgid "Current status of the standard"
+msgstr ""
+
+#: ../../../about/index.rst:23
+#: 8d4bb099dfc14985a5e5d9441c739879
+msgid "This is v0.2 of the Beneficial Ownership Data Standard. The data model has been updated and additional codelist information added since v0.1."
+msgstr ""
+
+#: ../../../about/index.rst:26
+#: 426f5a978e0d4257bcb2c52628afc06e
+msgid "Implementers should be aware that future changes are anticipated, before a version 1.0 release. However, from the v0.1 release onwards, any structural changes or major definitional changes only take place following consultation. A clear :ref:`changelog <changelog>` is provided, and the documentation of previous versions is maintained in archive form."
+msgstr ""
+
+#: ../../../about/index.rst:33
+#: bb42a0d8482143d0bdd145bf5c366218
+msgid "The schema contains a structure, fields and codelists but does not yet enforce validation constraints on most fields."
+msgstr ""
+
+#: ../../../about/index.rst:38
+#: 003d59efe5d7452c86a8bae60259e775
+msgid "Get involved"
+msgstr ""
+
+#: ../../../about/index.rst:40
+#: e97dcaed8a614b00a151467c29fbb120
+msgid "All changes to the standard draft, documentation and specification take place via GitHub at https://github.com/openownership/data-standard/."
+msgstr ""
+
+#: ../../../about/index.rst:43
+#: b568e9419630441481f391e492373d2e
+msgid "Suggestions for changes can be made via the `project issue tracker <https://github.com/openownership/data-standard/issues>`__."
+msgstr ""
+
+#: ../../../about/index.rst:46
+#: 01d5dc2d9d43459e8986e7968cff8e0e
+msgid "If you would like to be involved in the development and review of the Standard, see the :doc:`Governance <governance>` page."
+msgstr ""
+
+#: ../../../about/index.rst:60
+#: 67cafea2b0a6405b9b5a7b0310167aac
+msgid "Partners and funders"
+msgstr ""
+
+#: ../../../about/index.rst:62
+#: 0d6540c788b044cd93e5e84db02cb517
+msgid "The initial development of the Beneficial Ownership Data Standard was funded by Open Ownership as part of a UK Department for International Development funded project. Open Ownership is led by a steering group of the world's leading transparency organizations including `Transparency International <https://www.transparency.org/>`__, `OpenCorporates <https://opencorporates.com>`__, `One <https://www.one.org/international/>`__, the `Open Contracting Partnership <https://www.open-contracting.org>`__, `Global Witness <https://www.globalwitness.org/en-gb/>`__ and `The B Team <http://bteam.org/>`__."
+msgstr ""
+
+#: ../../../about/index.rst:73
+#: 7d059f1625ec4310b92296df9128d160
+msgid "The specification and documentation have been developed by `Open Data Services Co-operative <https://www.opendataservices.coop>`__ and `OpenCorporates <https://opencorporates.com>`__. Read the :doc:`credits <credits>` for full details of the Standard's developers."
+msgstr ""
+
+#: ../../../about/index.rst:80
+#: 1059de03591645f69f1f28d8daed9775
+msgid "License and contributor agreement"
+msgstr ""
+
+#: ../../../about/index.rst:82
+#: 7a5f9aecb68d43d9bc20a46a4dc5c7dc
+msgid "Schema contents of the Beneficial Ownership Data Standard are Copyright (C) 2016-2021 Open Ownership."
+msgstr ""
+
+#: ../../../about/index.rst:85
+#: 7b7cb05c34f24bee88144319fdd90554
+msgid "The schema is licensed under the Apache License, Version 2.0."
+msgstr ""
+
+#: ../../../about/index.rst:87
+#: 891aec33d7de411ebdd22f90d335582b
+msgid "Contributors are required to accept the `contributor agreement <https://github.com/openownership/data-standard/blob/master/CONTRIBUTING.md>`__."
+msgstr ""
+
+#: ../../../about/index.rst:92
+#: ef04dc085cc9493ba2a161d166ac17f8
+msgid "Contact"
+msgstr ""
+
+#: ../../../about/index.rst:94
+#: d3f357a8284f4906af41ccf52a844039
+msgid "For more details about Open Ownership, please email support@openownership.org."
+msgstr ""

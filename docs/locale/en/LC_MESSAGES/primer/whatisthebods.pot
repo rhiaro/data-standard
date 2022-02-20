@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, OpenOwnership
+# This file is distributed under the same license as the Beneficial Ownership Data Standard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beneficial Ownership Data Standard 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-20 22:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../primer/whatisthebods.rst:2
+#: c6898c31a2c44c0c9f813ae5e8e46a27
+msgid "What is the Beneficial Ownership Data Standard?"
+msgstr ""
+
+#: ../../../primer/whatisthebods.rst:4
+#: f99553eca0ff4cb6842cc630c85e7674
+msgid "The value from beneficial ownership data comes when we can share it easily, knowing that it will be correctly understood. Data from different companies and different countries can then be combined, visualised, explored and analysed."
+msgstr ""
+
+#: ../../../primer/whatisthebods.rst:13
+#: fdfcab5d208c4af0a773c073d280bb55
+msgid "To gain insights about beneficial ownership..."
+msgstr ""
+
+#: ../../../primer/whatisthebods.rst:19
+#: 7c61780a63cd49ce87b00a1f24e018a1
+msgid "Bringing together data from a variety of sources can give us insights into sprawling or complicated ownership and control structures. But, without common standards, combining and analysing data from different sources can be extremely difficult, expensive and time-consuming."
+msgstr ""
+
+#: ../../../primer/whatisthebods.rst:None
+#: f8e87d1816724fd7ac9bac3c6ecbd6a1
+msgid "Data sources separately feeding into an unclear picture."
+msgstr ""
+
+#: ../../../primer/whatisthebods.rst:27
+#: 6e1cd0cc843446119e7c655e6498cb09
+msgid "When we only have scattered documents to draw upon, the bigger picture of beneficial ownership remains obscure."
+msgstr ""
+
+#: ../../../primer/whatisthebods.rst:34
+#: af5fa70247e744e192a18ae7dcd5b92a
+msgid "...data must be shared in standardised way..."
+msgstr ""
+
+#: ../../../primer/whatisthebods.rst:40
+#: 6a25fa479f22424599f82f3430e831d8
+msgid "The Beneficial Ownership Data Standard (BODS) provides a structured data format, along with guidance for collecting, sharing and using data on beneficial ownership:"
+msgstr ""
+
+#: ../../../primer/whatisthebods.rst:44
+#: 56171cd4d2bb4e4f92576644f6347d8d
+msgid "The `data schema <../schema/index.html>`__ describes how and what data should be shared. It can also inform the design of data collection and management systems;"
+msgstr ""
+
+#: ../../../primer/whatisthebods.rst:48
+#: 01df5dca69314c57a64b95f52ba80b91
+msgid "The `technical guidance <../schema/guidance/index.html>`__ provides support for publishers and users of the data."
+msgstr ""
+
+#: ../../../primer/whatisthebods.rst:None
+#: ee15cadbf4464b7a9a20c49bb3fa59b2
+msgid "A standardised 'template' for data makes processing it easier,\n"
+"leading to a clear picture."
+msgstr ""
+
+#: ../../../primer/whatisthebods.rst:56
+#: 8ff35d16e22c46598e2560b2960cdf79
+msgid "Using BODS simplifies the sharing and use of beneficial ownership information."
+msgstr ""
+
+#: ../../../primer/whatisthebods.rst:63
+#: 74a89e0b8ae04ba398eeb3f4f4d1dc03
+msgid "...as structured data."
+msgstr ""
+
+#: ../../../primer/whatisthebods.rst:69
+#: cebaffe898d044b5b37b6d1150b49c93
+msgid "The data schema describes how data about the beneficial owners of a legal entity can be organized and exchanged. The schema is defined in a structured data format called JSON."
+msgstr ""
+
+#: ../../../primer/whatisthebods.rst:None
+#: 018d3d307c884e2b966a2a2efd07d4df
+msgid "Company documents containing beneficial ownership information:\n"
+"the related structured data representation of these documents is on\n"
+"the right, in JSON."
+msgstr ""
+
+#: ../../../primer/whatisthebods.rst:79
+#: bae2aa86e40545f28dad5beb6ad495e9
+msgid "Using the popular JSON format facilitates computerised access and analysis of the data, whilst also providing human-readable data."
+msgstr ""
+
+#: ../../../primer/whatisthebods.rst:84
+#: e47e4efd0922478ab6d98afe5759a94f
+msgid "The **Beneficial Ownership Data Standard** describes what data should be shared and how (using a JSON schema) and provides guidance on data publishing processes and data use."
+msgstr ""

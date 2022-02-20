@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, OpenOwnership
+# This file is distributed under the same license as the Beneficial Ownership Data Standard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beneficial Ownership Data Standard 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-20 22:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../primer/whyisbo.rst:2
+#: 956f97cb4f8f467087f0b7c6ea5e09ef
+msgid "Why beneficial ownership is a useful concept"
+msgstr ""
+
+#: ../../../primer/whyisbo.rst:4
+#: b3ce5b2676c947e38ca416f511e0cf7e
+msgid "People can be involved in a number of companies and in different ways. By limiting our understanding of people's involvement to ownership only, we would miss instances like below."
+msgstr ""
+
+#: ../../../primer/whyisbo.rst:None
+#: 2d428a9acd594f03a10eca0aeb5e545d
+msgid "Person A controls 60% of Company 2. And Person A owns 50% of\n"
+"Company 3"
+msgstr ""
+
+#: ../../../primer/whyisbo.rst:12
+#: bd79c92dfd4647c09a4a46f062f6d3d4
+msgid "The person both controls Company 1 and owns half of Company 2. This could be important to know if both companies bid for the same government contract, or if they both appeared in a procurement chain."
+msgstr ""
+
+#: ../../../primer/whyisbo.rst:16
+#: f1954643a9e7400699520916d4ab6068
+msgid "It might be equally important to see that a person's control over a company is greater than one might expect given their financial stake in it."
+msgstr ""
+
+#: ../../../primer/whyisbo.rst:None
+#: 91d7b58931b34b8a81153269ea84b55d
+msgid "Person C controls 60% of votes in Company 2 while owning only\n"
+"20% of its stock."
+msgstr ""
+
+#: ../../../primer/whyisbo.rst:27
+#: 3ec80cfd50214677a1933038de313ec3
+msgid "Uniting ownership and control under the banner of beneficial ownership allows us to represent the complex reality of corporate structures, and the multiple interests a person might have in a company."
+msgstr ""

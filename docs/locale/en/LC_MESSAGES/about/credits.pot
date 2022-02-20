@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, OpenOwnership
+# This file is distributed under the same license as the Beneficial Ownership Data Standard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beneficial Ownership Data Standard 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-20 22:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../about/credits.rst:2
+#: cb9278e3fe45495f8c2fb347579681c8
+msgid "Credits"
+msgstr ""
+
+#: ../../../about/credits.rst:4
+#: 33867cbb26064d4e84d31b02e0e4064a
+msgid "The first beta version of the Beneficial Ownership Data Standard was written by Tim Davies (`Open Data Services Co-operative <https://www.opendataservices.coop>`_) with Ben Symonds (`OpenCorporates <https://www.opencorporates.com>`_), Chris Taggart (`OpenCorporates <https://www.opencorporates.com>`_) and Jack Lord (`Open Data Services Co-operative <https://www.opendataservices.coop>`_) and supported by the :doc:`data standard working group <governance>`."
+msgstr ""
+
+#: ../../../about/credits.rst:12
+#: 2bfbcda1d20549149885573fe5463781
+msgid "The 0.1 version was written by Tim Davies and Jack Lord with supporting documentation from Kadie Armstrong (`Open Data Services Co-operative <https://www.opendataservices.coop>`_), technical work from James Baster (`Open Data Services Co-operative <https://www.opendataservices.coop>`_) and input from the :doc:`data standard working group <governance>`."
+msgstr ""
+
+#: ../../../about/credits.rst:19
+#: 179d9ef370a046218c00d2d0f1941958
+msgid "The 0.2 version was written by Jack Lord, Simon Whitehouse and Kadie Armstrong (`Open Data Services Co-operative <https://www.opendataservices.coop>`_), technical work from James Baster, Ben Webb, Amy Guy and David Raznick (`Open Data Services Co-operative <https://www.opendataservices.coop>`_) and input from the :doc:`data standard working group <governance>`."
+msgstr ""

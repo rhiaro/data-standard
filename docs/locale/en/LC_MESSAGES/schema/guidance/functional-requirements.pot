@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, OpenOwnership
+# This file is distributed under the same license as the Beneficial Ownership Data Standard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beneficial Ownership Data Standard 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-20 22:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../schema/guidance/functional-requirements.rst:4
+#: 906631deb10c475195c80999917483fb
+msgid "Functional requirements"
+msgstr ""
+
+#: ../../../schema/guidance/functional-requirements.rst:6
+#: f55b7109fce047a4a9d4f5337c3050a2
+msgid "The Beneficial Ownership Data Standard can accommodate data from a range of sources. Collection and publication systems need to ensure that this data is of high quality and that it can be shared efficiently. They therefore need to meet the following functional requirements:"
+msgstr ""
+
+#: ../../../schema/guidance/functional-requirements.rst:8
+#: 7a5cd8ad4e37477cae7b39613d78fc7d
+msgid "Source systems should keep a full audit log with the source of data and changes made to data;"
+msgstr ""
+
+#: ../../../schema/guidance/functional-requirements.rst:10
+#: 5ae46baa06554ce2ab1e6e91fb4f1446
+msgid "Publication systems should assign a unique identifier to each statement produced;"
+msgstr ""
+
+#: ../../../schema/guidance/functional-requirements.rst:12
+#: 1ce3c43936fe40559e43127b27e56018
+msgid "Publication systems should be able to assert when one statement replaces another;"
+msgstr ""
+
+#: ../../../schema/guidance/functional-requirements.rst:14
+#: adaaff1c70d748f89149b9ce9b71026d
+msgid "Publication systems should be able to produce statements in JSON format;"
+msgstr ""
+
+#: ../../../schema/guidance/functional-requirements.rst:16
+#: 1be5fbad99b3416db112777498847487
+msgid "Publication systems should be able to validate statements against the JSON schema;"
+msgstr ""
+
+#: ../../../schema/guidance/functional-requirements.rst:18
+#: d4ecaade91a544a38ffb4558189ecbaa
+msgid "Statements should be immutable."
+msgstr ""

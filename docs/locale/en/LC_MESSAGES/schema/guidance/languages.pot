@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, OpenOwnership
+# This file is distributed under the same license as the Beneficial Ownership Data Standard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beneficial Ownership Data Standard 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-20 22:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../schema/guidance/languages.rst:2
+#: 0ec9705d29ba4b0b853cb8c11d47cef6
+msgid "Languages and transliteration"
+msgstr ""
+
+#: ../../../schema/guidance/languages.rst:4
+#: 3a0f092a354248ff867cd050871a549c
+msgid "There may be times when beneficial ownership information needs to be provided in different languages."
+msgstr ""
+
+#: ../../../schema/guidance/languages.rst:6
+#: d0a2947e54474c198df5530d041fbf01
+msgid "For people's names, use an entry in the ``names`` array with a ``type`` of 'translation'"
+msgstr ""
+
+#: ../../../schema/guidance/languages.rst:7
+#: 31aa122e3cf8440dbf866d973ee6c5e5
+msgid "For entity names, use an entry in the ``alternativeNames`` array"
+msgstr ""
+
+#: ../../../schema/guidance/languages.rst:9
+#: 152adba3478446558cab8d77b5c4a1fe
+msgid "For other fields, an ``annotations`` object can be used to indicate that a particular field has a translation or transliteration."
+msgstr ""

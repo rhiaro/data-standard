@@ -1,0 +1,316 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, OpenOwnership
+# This file is distributed under the same license as the Beneficial Ownership Data Standard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beneficial Ownership Data Standard 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-20 22:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../usecases.rst:2
+#: 8b22e74f96b24d088a00efc6ed255116
+msgid "Use cases"
+msgstr ""
+
+#: ../../../usecases.rst:4
+#: 4db9b37b5cf14d69aafd1eacbdb520e9
+msgid "The Beneficial Ownership Data Standard beta has been designed with reference to the requirements of eight use-cases:"
+msgstr ""
+
+#: ../../../usecases.rst:7
+#: ../../../usecases.rst:30
+#: 8ee76011dab24aa8b68c86c5a9dc7666
+#: f9dbb3986e3741399dc05df266996cde
+msgid "Data supply"
+msgstr ""
+
+#: ../../../usecases.rst:8
+#: 47700851b56d42ad988c2786a4e3cd49
+msgid "Public Registers of Beneficial Ownership"
+msgstr ""
+
+#: ../../../usecases.rst:9
+#: 917a77b3115847f2ad2f226066480c10
+msgid "Self-submitted data"
+msgstr ""
+
+#: ../../../usecases.rst:10
+#: 96f79e75f78544bea6211a96ea7f4fcb
+msgid "Third-party submitted data"
+msgstr ""
+
+#: ../../../usecases.rst:11
+#: 7ac6067e3bce42b1909086f1f573fdd8
+msgid "Self-published data"
+msgstr ""
+
+#: ../../../usecases.rst:13
+#: ../../../usecases.rst:119
+#: c6a6e50d5f184555a89c175a11bbf707
+#: 906d3c35cbba4f2496b9d5f307841d33
+msgid "Data use"
+msgstr ""
+
+#: ../../../usecases.rst:14
+#: d49e0acc4f9142c093e36c28437f4971
+msgid "Procurement & onboarding screening and audit"
+msgstr ""
+
+#: ../../../usecases.rst:15
+#: 32ac173b9c25435aa2a30d85971f4137
+msgid "General investigations"
+msgstr ""
+
+#: ../../../usecases.rst:16
+#: 83da8af6eb8d4d0da365149cca5f1af0
+msgid "Data-led investigations"
+msgstr ""
+
+#: ../../../usecases.rst:17
+#: 859259018ab447b9a97a2b31066ce201
+msgid "Data validation"
+msgstr ""
+
+#: ../../../usecases.rst:19
+#: b19cc0371a9241d6b89935609e9a8775
+msgid "These use cases are described below."
+msgstr ""
+
+#: ../../../usecases.rst:23
+#: 9de6f6aac057482dbd25f09caf89cfe8
+msgid "A full analysis of how far the needs of these use cases are met will take place as part of progress towards a 1.0 Release Candidate of the standard."
+msgstr ""
+
+#: ../../../usecases.rst:25
+#: 6005818d6ac84386aa3dd9a53578530c
+msgid "This page builds on the `use case consultation document <https://docs.google.com/document/d/1s1qqFAK3cDjTGAlCaQvPOb8KzKkssn9xu2HzWeY6amE/edit#>`__ published in December 2016."
+msgstr ""
+
+#: ../../../usecases.rst:32
+#: cc22d7ca36614d3c855c038606ac50d6
+msgid "*The following cases sketch out ways in which open beneficial ownership data might be published.*"
+msgstr ""
+
+#: ../../../usecases.rst:36
+#: 77c6a3f8bc584680a1af2453a89dbcad
+msgid "S1: Public Registers of Beneficial Ownership"
+msgstr ""
+
+#: ../../../usecases.rst:38
+#: 8292821191604073acb8a5622133a851
+msgid "A government or other body creating a public register of beneficial ownership may want to publish that information as open data that others can draw on and re-use. This may include publishing bulk data, or providing an API on the data."
+msgstr ""
+
+#: ../../../usecases.rst:43
+#: 662a0ab3816d43f1856fe45336fd8b03
+msgid "The data that the register should contain is likely to be determined by national legislation, and there may be existing national guidance on how to develop open data services or APIs."
+msgstr ""
+
+#: ../../../usecases.rst:47
+#: d17e7d26b4c4438fadf4af1d4e76f49e
+msgid "Organisations building a register may also be interested in using the standard to help design their internal data models and data collection processes."
+msgstr ""
+
+#: ../../../usecases.rst:51
+#: 07f0124ce4dd4c57923ece55075c69b1
+msgid "Possible examples of this case may include the UK Register of Persons of Significant Control, the Ukraine Beneficial Ownership Register, the planned register of beneficial ownership in France, and sector-specific registers from the Extractives Industry Transparency Initiative."
+msgstr ""
+
+#: ../../../usecases.rst:57
+#: cd442d5470f34ab1bee863179646e616
+msgid "S2: Self-submitted data"
+msgstr ""
+
+#: ../../../usecases.rst:59
+#: 6b353e50e2484a5f84f34668fb984132
+msgid "An individual or an organisation may make use of online tools to self-report beneficial ownership information."
+msgstr ""
+
+#: ../../../usecases.rst:62
+#: 5309616d39ad47f691c5001152d753b5
+msgid "For example, `Who Controls It <http://alpha.whocontrolsit.com/>`__ was a proof-of-concept Beneficial Ownership platform (a precursor to OpenOwnership.org), designed to test some of the UI issues in the submission of beneficial ownership data, allowing users to declare their own ownership of a company, or to report on the ownership structure of a company."
+msgstr ""
+
+#: ../../../usecases.rst:69
+#: 6e43762a63c84b6d9a4dce7b273cfeab
+msgid "There are many complex cases a comprehensive system should be able to deal with, including:"
+msgstr ""
+
+#: ../../../usecases.rst:72
+#: 7094260829fd4a8bab5f724d9d53bda4
+msgid "Recording economics interests, but without control (e.g. 1% of a mining company, which may be valuable, but give little shareholder power);"
+msgstr ""
+
+#: ../../../usecases.rst:76
+#: daa3a206dee34f65a165311748243473
+msgid "Mutual funds, that separate control (the fund manager) from the economic interest (the entities that put the money in);"
+msgstr ""
+
+#: ../../../usecases.rst:79
+#: b11aa84bac9f4a86a5b6c59457a7c0b5
+msgid "`Bonds, preference shares and other investments <http://www.investopedia.com/terms/p/preference-shares.asp>`__ that don’t give control, but do give economic interests. Note that sometimes they may have *some* control, such as veto rights, e.g. over mergers or asset sales;"
+msgstr ""
+
+#: ../../../usecases.rst:85
+#: 46a1d7f53eea45c1a0a1825559ecae9d
+msgid "Control via nominees, particularly when a nominee may act for a number of different parties in control of the same company;"
+msgstr ""
+
+#: ../../../usecases.rst:88
+#: 8fb0fd8d633f4ed4b7586ef94384cfc7
+msgid "Contractual control limited to a particular set of circumstances."
+msgstr ""
+
+#: ../../../usecases.rst:90
+#: aa8f5bbacbc14f6eac113cd17e950601
+msgid "The designers of systems capturing self-submitted data may want to use the standard to express the data they have already collected, and to plan the collection of other data in future."
+msgstr ""
+
+#: ../../../usecases.rst:95
+#: c6b363f961824ab99b96cdddd8948fbb
+msgid "S3: Third-party submitted data"
+msgstr ""
+
+#: ../../../usecases.rst:97
+#: 2d8dc24817d9497a872e2f6a289d6f0b
+msgid "Researchers, journalists or corporate information services may use filings, reports and other materials to build up structured data about beneficial ownership."
+msgstr ""
+
+#: ../../../usecases.rst:101
+#: 58812a51d97148e7b23bea1a5473a47e
+msgid "They may wish to share this data for others to re-use, but with suitable caveats about the sourcing of the data."
+msgstr ""
+
+#: ../../../usecases.rst:105
+#: aa4fbf29e13f4b788815bf44131223bc
+msgid "S4: Self-published data"
+msgstr ""
+
+#: ../../../usecases.rst:107
+#: 00b8899a6fc64bdba1b585ef44b9d477
+msgid "Companies may wish to publish structured data about their own beneficial ownership on their own websites. This data could be manually curated, or might come from internal information systems. They may be interested in doing this to avoid having to manually enter the information into different systems, so would want the data to be able to be read directly into platforms like OpenOwnership."
+msgstr ""
+
+#: ../../../usecases.rst:114
+#: dc45e10f577b42b7ba3538f1db9fa4d0
+msgid "The data may be periodically updated at a single URL, or have regular releases of data published as part of an annual reporting process, each time at a new URL."
+msgstr ""
+
+#: ../../../usecases.rst:121
+#: 59c9f9f781144261a3f8cbbd17c9d6b2
+msgid "*The following cases look at different ways in which stakeholders may wish to make use of beneficial ownership data.*"
+msgstr ""
+
+#: ../../../usecases.rst:125
+#: 62c894dc4922475295aac840c3db8f10
+msgid "U1: Procurement & onboarding screening and audit"
+msgstr ""
+
+#: ../../../usecases.rst:127
+#: 3c0b3d8c08974d5f8ef526f279295453
+msgid "There are a variety of cases related to onboarding, by which we mean the process of establishing relationships with new partners: typically new clients or suppliers (but also joint venture partners, licensees, Mergers & Acquisitions etc). Each of these new relationships exposes the onboarding entity (e.g. government, bank, multinational corporation, etc) to risk (e.g. financial risk, reputational risk, FCPA/Bribery Act risk, sanctions breaches, etc.), and so they need to understand about the entity being onboarded."
+msgstr ""
+
+#: ../../../usecases.rst:136
+#: 9359e9eb71a74c00bf4321a0086c22e0
+msgid "Information of ownership and control is typically collected by onboarding entities who then assess the validity of information provided by cross checking with supplementary data available in open sources. In high value / high risk transactions, third parties are often employed to support due diligence processes. Onboarding entities are looking for red flags (e.g. whether the company is connected with Politically Exposed Persons or has earned negative media), and for confidence that there are no red flags they are missing (e.g. that a Beneficial Owner is connected with a company on a sanctions list). Following an assessment of risks, an informed judgement call typically determines whether new partnerships or transactions meet the policy requirements of the business."
+msgstr ""
+
+#: ../../../usecases.rst:148
+#: e991fa13c82a40198c0550b892761578
+msgid "As part of an onboarding process, beneficial ownership information might be integrated alongside other ‘Know Your Customer/Client’ information and systems. In some cases, having access to documentary evidence to back up each piece of information given from a beneficial ownership dataset will be important."
+msgstr ""
+
+#: ../../../usecases.rst:154
+#: 1203753fe3984521ada73cfe42e50c0e
+msgid "Example user story: *A procurement officer at a multilateral development bank has to approve the application of a new supplier. They need to ensure that the company is not on sanctions lists, that the ‘beneficial owners’ are not PEPs, and that they are not on debarment lists.*"
+msgstr ""
+
+#: ../../../usecases.rst:160
+#: 33aa773dbff440bfa8a3744fe8d14fbf
+msgid "U2: General investigations"
+msgstr ""
+
+#: ../../../usecases.rst:162
+#: 9bb2f40a88c64e099c0270aa5c3ce5d5
+msgid "There are a number of parties that need to investigate specific companies or individuals (as opposed to doing data-led investigations/mappings)."
+msgstr ""
+
+#: ../../../usecases.rst:166
+#: 496c68644bb740a9b1c30e53a1956a8e
+msgid "These include:"
+msgstr ""
+
+#: ../../../usecases.rst:168
+#: f507877c00914dbc929d0e595a549c12
+msgid "**Journalists** - researching stories on a particular company, individual or group of companies"
+msgstr ""
+
+#: ../../../usecases.rst:171
+#: 93228497576447359343eb403727d9e8
+msgid "**NGO anti-corruption investigation** - finding leads, following them"
+msgstr ""
+
+#: ../../../usecases.rst:173
+#: 2557ce7bd4e341b081438faa0982e0cb
+msgid "**Law enforcement** - looking to establish a clear evidence base, and seeking to establish proof of intent"
+msgstr ""
+
+#: ../../../usecases.rst:176
+#: 014229a14cc4463eb71028451f636b07
+msgid "**Asset recovery** - recovering money/assets that are due to a client, for example Stolen Assets, proceeds of fraud, or assets hidden in divorce settlements"
+msgstr ""
+
+#: ../../../usecases.rst:180
+#: 715e98e265dc4b0ab2b4b0ded95db438
+msgid "In many ways the processes around such investigations are very similar, and are less dependent on on who is doing the investigation, and more about the resources that they have. For example some professional investigative journalists and even NGOs will have access to proprietary datasets, whereas many law enforcement officers won’t; some lawyers performing asset recovery will be able to ask the courts to expose otherwise hidden data (e.g. dollar transactions). Nevertheless, all are looking for leads they can follow, and in particular public leads (in the case of journalists, or NGOs this is possibly all they have access to or can afford; in the case of law enforcement, lying in public proves intent)."
+msgstr ""
+
+#: ../../../usecases.rst:192
+#: 670ee4db640e47abb6b7f98b77f2eaa7
+msgid "Tax and accounting investigations are similar, but may be more focused on corporate structures and direct relationships rather than indirect and ultimate relationships"
+msgstr ""
+
+#: ../../../usecases.rst:196
+#: 6e3297eb7fa74ac398f3dc488a57bfa1
+msgid "Example user story: *A journalist is investigating a politician including looking at known associates and companies, in both the home country and other jurisdictions.*"
+msgstr ""
+
+#: ../../../usecases.rst:201
+#: 7a101251f77f49c59a87bafc870f335e
+msgid "U3: Data-led investigations"
+msgstr ""
+
+#: ../../../usecases.rst:203
+#: 8f23010d4d33441a8e1d1e82713b7c6a
+msgid "As well as targeted and general purpose investigations, where there is a specific target for the investigation or a lead that is being pursued, there are also data-led investigations, which work by analysis or mining the data as a whole, or combining the data with other datasets. Examples would be mapping beneficial ownership data to procurement data (for conflict of interest mapping), as well as mapping to similar data such as shareholder data from company registers."
+msgstr ""
+
+#: ../../../usecases.rst:211
+#: 698a1a2550864859b4f89c93c6e6acd6
+msgid "To give an example user story: *Data journalists wish to find anomalies between beneficial ownership disclosures and other public records, to identify lies*"
+msgstr ""
+
+#: ../../../usecases.rst:216
+#: e1de7403e5a14f25a8fb43cb969984e8
+msgid "U4: Data validation"
+msgstr ""
+
+#: ../../../usecases.rst:218
+#: efc3dd9a717c4cefb36456710d11bd91
+msgid "Systems collecting beneficial ownership data can benefit from checking the data they receive against data from other systems. In existing work, there have been cases where reports under the EITI templates have not matched with reports to the UK Register of Persons with Significant Control."
+msgstr ""
+
+#: ../../../usecases.rst:224
+#: 20504bac2d5b4cc1a44ee9bc04758ede
+msgid "To give an example user story: *National EITI groups may wish to check reported information against data from national beneficial ownership registers where those exist, and to be able to address inaccuracies with the reporting parties. *"
+msgstr ""

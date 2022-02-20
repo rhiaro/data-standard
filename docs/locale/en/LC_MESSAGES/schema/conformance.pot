@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, OpenOwnership
+# This file is distributed under the same license as the Beneficial Ownership Data Standard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beneficial Ownership Data Standard 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-20 22:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../schema/conformance.rst:4
+#: eee8351918334bde9a9992ab09cc3937
+msgid "Conformance and validation"
+msgstr ""
+
+#: ../../../schema/conformance.rst:7
+#: eb59f79ca8894c5db54e01b07fde87b3
+msgid "Conformance statement"
+msgstr ""
+
+#: ../../../schema/conformance.rst:9
+#: 5165fe83164c4916bf75b020a64ddcc9
+msgid "A conforming implementation **may** use only a subset of this specification’s terms."
+msgstr ""
+
+#: ../../../schema/conformance.rst:10
+#: 90b160b4e471405eb50a908ec35757a7
+msgid "It **must not** use terms from outside this specification’s terms where this specification’s terms would suffice."
+msgstr ""
+
+#: ../../../schema/conformance.rst:11
+#: 5b0269a6467f4651a05d5aac61f52ba7
+msgid "It **may** use terms from outside this specification’s terms where this specification’s terms are insufficient."
+msgstr ""
+
+#: ../../../schema/conformance.rst:12
+#: 28708347fa8d4527a6480bb24e2b77f1
+msgid "Its usage of this specification’s terms **must** be consistent with the semantics of those terms."
+msgstr ""
+
+#: ../../../schema/conformance.rst:13
+#: 69e1ff819ff34ecfbad7b1c1279b0dda
+msgid "If an implementation serializes to JSON, its serializations **must** validate against this specification’s JSON Schema."
+msgstr ""
+
+#: ../../../schema/conformance.rst:15
+#: e571a2b3bcab41788b3c2322ab41581f
+msgid "(Statement `adapted from Popolo Project specification <http://www.popoloproject.com/specs/#conformance>`_)"
+msgstr ""
+
+#: ../../../schema/conformance.rst:18
+#: 6fb9c5944787486695c851786a1e23aa
+msgid "Extending the schema"
+msgstr ""
+
+#: ../../../schema/conformance.rst:20
+#: 7a1fa1115bb24a43a024f9df0d495fab
+msgid "Publishers providing additional properties in their implementations are encouraged to `document these in the project issue tracker <https://github.com/openownership/data-standard/issues/>`_ with the 'extensions' tag, and to re-use `other publisher's extensions <https://github.com/openownership/data-standard/issues?q=is%3Aissue+label%3Aextension>`_ where possible."
+msgstr ""
+
+#: ../../../schema/conformance.rst:23
+#: f9a78dbfac944c11b4cd2fdd929658bd
+msgid "Validation"
+msgstr ""
+
+#: ../../../schema/conformance.rst:25
+#: 37927ce9b8d84699bca15f71b8fd1051
+msgid "Validation of BODS data can be carried out using the `BODS Data Review Tool <https://datareview.openownership.org/>`_."
+msgstr ""
+
+#: ../../../schema/conformance.rst:27
+#: 48a02483eeb4402596a561bac43427b7
+msgid "The current schema includes minimal validation requirements, and should be treated as a guide to data structure, rather than a full validation schema."
+msgstr ""

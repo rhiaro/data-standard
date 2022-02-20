@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, OpenOwnership
+# This file is distributed under the same license as the Beneficial Ownership Data Standard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beneficial Ownership Data Standard 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-20 22:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../schema/guidance/provenance.rst:4
+#: b4637b0a07b0419a8ee86dc34fa1e445
+msgid "Sources and annotations"
+msgstr ""
+
+#: ../../../schema/guidance/provenance.rst:6
+#: 527584da842a43c7986db9197fd913a3
+msgid "It is important to indicate clearly where data has come from, and any changes to it that have been made since it was originally collected."
+msgstr ""
+
+#: ../../../schema/guidance/provenance.rst:8
+#: c5776450c6c648aebdf755c0928ca74d
+msgid "Each statement SHOULD contain information on its source, and whether or not the information it contains has been verified. (For example, a statement may be taken from official records, or self declaration, and it may or may not have been checked through some process to verify that the information provided is accurate.)"
+msgstr ""
+
+#: ../../../schema/guidance/provenance.rst:10
+#: 389a58a0f8d144e1b079774c6236393a
+msgid "The ``source`` property of each statement MAY be used to provide provenance information."
+msgstr ""
+
+#: ../../../schema/guidance/provenance.rst:12
+#: 66cdcc2239c64dc897c36881d4a23856
+msgid "The ``annotations`` property of each statement MAY be used to provide additional contextual information at the level of a whole statement, a sub-object, or an individual property. For example an annotation might be used to include structured information detailing the nature of the interest held by a natural person in a company. In some cases, systems processing BODS data may make changes to clean, enhance or otherwise update the data, such as reconciling company names against identifiers. In this case, details of these changes SHOULD be recorded as annotations, to allow users to clearly understand the provenance of information."
+msgstr ""

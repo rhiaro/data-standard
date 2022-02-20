@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, OpenOwnership
+# This file is distributed under the same license as the Beneficial Ownership Data Standard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beneficial Ownership Data Standard 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-20 22:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../about/governance.rst:2
+#: 5f49071de50a42729322ee06aa1990c6
+msgid "Governance"
+msgstr ""
+
+#: ../../../about/governance.rst:6
+#: fc109cbde6de418cad7702eb8265e84c
+msgid "Data Standard Working Group - abbreviated Terms of Reference (2016)"
+msgstr ""
+
+#: ../../../about/governance.rst:8
+#: 63867c89cfd44514a3633cf34ad19d7e
+msgid "The Beneficial Ownership Data Standard Working Group (DSWG) will drive the initial creation of a free and open data standard for Beneficial Ownership designed to reduce the technical barriers to the collection and re-use of beneficial ownership data, including (but not limited to) by `the OpenOwnership Register <https://openownership.org/>`_ being created by civil society around the world.  OpenOwnership is also `creating private sector, public sector and civil society working groups <https://openownership.org/get-involved/>`_."
+msgstr ""
+
+#: ../../../about/governance.rst:10
+#: 67a794e14ced48f18bbd3c6f1af96db4
+msgid "This working group will include stakeholders from a range of backgrounds with an interest and expertise in data relating to corporate control or beneficial ownership, and to the use of such data in the public interest. While the development of the standard will take place through an open process, to which anyone can contribute, working group members take on a special responsibility for guiding development of the standard, and ensuring that relevant requirements, user needs and technical considerations are taken into account."
+msgstr ""
+
+#: ../../../about/governance.rst:14
+#: bc15a3aaf4a949e3a2fba25b839e467a
+msgid "Values"
+msgstr ""
+
+#: ../../../about/governance.rst:16
+#: 3980ab1196a84c4aa444e3ed1d88f3b6
+msgid "All working group members must commit to support the following shared values."
+msgstr ""
+
+#: ../../../about/governance.rst:18
+#: d6f3b3d4a4b34bb4a39deff737fbb31a
+msgid "**Open**"
+msgstr ""
+
+#: ../../../about/governance.rst:20
+#: ../../../about/governance.rst:28
+#: 1a0e33aea1e9423f8d80296ba573a22e
+#: b5ff9a3f3eaa4426b94d8abd5fbe6817
+msgid "We will:"
+msgstr ""
+
+#: ../../../about/governance.rst:22
+#: 4113d0fe44154f0ea8493b50b6cdb217
+msgid "share our views and plans, and share knowledge as widely as possible;"
+msgstr ""
+
+#: ../../../about/governance.rst:23
+#: 426df3fa63374a63b32e9a9646827d95
+msgid "solicit and listen to views from end users and stakeholders;"
+msgstr ""
+
+#: ../../../about/governance.rst:24
+#: 11fa275795a145d28864cb6306ef79ad
+msgid "make our outputs available under an open licence and abide by the project `contributor agreement <https://github.com/openownership/data-standard/blob/master/CONTRIBUTING.md>`_;"
+msgstr ""
+
+#: ../../../about/governance.rst:26
+#: d12d450bbef3424d90a9b436d8185af0
+msgid "**Expert**"
+msgstr ""
+
+#: ../../../about/governance.rst:30
+#: 7e47a79b7bec4b2c96aadfa1de18e608
+msgid "bring our expertise to the discussion as individuals;"
+msgstr ""
+
+#: ../../../about/governance.rst:31
+#: 853fa638fdd249aaa9796434d3227d0a
+msgid "use our expertise to synthesise the views of others in constructive and forward-thinking proposals;"
+msgstr ""
+
+#: ../../../about/governance.rst:32
+#: ac9c22eebd714bc5a00af07a89ba8f13
+msgid "use good judgement to respect privacy and confidentiality."
+msgstr ""
+
+#: ../../../about/governance.rst:34
+#: cd8d17aa48104320895a49a72f78c868
+msgid "**Collaborative**"
+msgstr ""
+
+#: ../../../about/governance.rst:36
+#: c244ed42d2d144fd98f82cc4b8135255
+msgid "We will"
+msgstr ""
+
+#: ../../../about/governance.rst:38
+#: 902afde6e50241b9a95ed95821c84a54
+msgid "support each other in discussion, in decisions, and in delivery;"
+msgstr ""
+
+#: ../../../about/governance.rst:39
+#: 285ac0307f5843e39ec4339b7b8a87f4
+msgid "operate on the basis of consensus decision making;"
+msgstr ""
+
+#: ../../../about/governance.rst:40
+#: 45ce51390d59437ebba87cb6f3395483
+msgid "constructively hold each other to account on our commitments;"
+msgstr ""
+
+#: ../../../about/governance.rst:41
+#: 66a0a938513d4aac87aaa49edd29259c
+msgid "ensure all voices are heard and considered carefully."
+msgstr ""
+
+#: ../../../about/governance.rst:44
+#: 221272387b934103b3d73ea2c636919c
+msgid "Membership, term and role"
+msgstr ""
+
+#: ../../../about/governance.rst:46
+#: 6abfeb2b8911485aa9c11147da001f38
+msgid "Membership of the working group is a voluntary responsibility. Members should be prepared to commit up to 5 hours a month, join group calls and respond to issues."
+msgstr ""

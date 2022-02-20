@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, OpenOwnership
+# This file is distributed under the same license as the Beneficial Ownership Data Standard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beneficial Ownership Data Standard 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-20 22:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../schema/schema-browser.rst:4
+#: 64d20937dfb946c7a90499909d71e7ab
+msgid "Schema browser"
+msgstr ""
+
+#: ../../../schema/schema-browser.rst:8
+#: 1d26b81305c64a9891b62a386fa89ce3
+msgid "This is v0.2 of the Beneficial Ownership Data Standard. It includes updates to the data model and additional codelist information. Implementers should be aware that future changes are anticipated, before a version 1.0 release. See the :doc:`Changelog <changelog>` and `About <../about>`_ pages for more information."
+msgstr ""
+
+#: ../../../schema/schema-browser.rst:10
+#: 25339a64dd76442b9aedc55796580e14
+msgid "**MUST** and **SHOULD** are used in the schema to denote required and recommended elements of the Standard, as defined in `RFC2119 <https://tools.ietf.org/html/rfc2119>`_."
+msgstr ""
+
+#: ../../../schema/schema-browser.rst:13
+#: c769d76fbacd4a6f83292ce15ba37664
+msgid "The draft Beneficial Ownership Data Standard schema is defined using `JSON Schema 0.4 <https://json-schema.org/>`_."
+msgstr ""
+
+#: ../../../schema/schema-browser.rst:15
+#: 23049f5e11a8435bba2d2ef95c62bfd0
+msgid "The structure of each of the schema's top level components can be explored using the viewers below. (Click on sub-components to reveal their properties.)"
+msgstr ""
+
+#: ../../../schema/schema-browser.rst:17
+#: 9a3b85737fc34f51958411dda3fa770f
+msgid ":ref:`Ownership-or-control statement <schema-browser-ownership-or-control>`"
+msgstr ""
+
+#: ../../../schema/schema-browser.rst:18
+#: 5648f5b229fb41b2a018cbcccf3477be
+msgid ":ref:`Entity statement <schema-browser-entity>`"
+msgstr ""
+
+#: ../../../schema/schema-browser.rst:19
+#: 8bf005a0906f4ef5be7c3913fd3e6c82
+msgid ":ref:`Person statement <schema-browser-person>`"
+msgstr ""
+
+#: ../../../schema/schema-browser.rst:24
+#: 75431e4fd38c42e2ab539eed0c90879a
+msgid "Ownership-or-control statement"
+msgstr ""
+
+#: ../../../schema/schema-browser.rst:26
+#: 4f9eaca8302640338cd0efd31d7f16cd
+msgid "View the `Ownership-or-control statement JSON schema <../_static/ownership-or-control-statement.json>`_ or explore it using the viewer below."
+msgstr ""
+
+#: ../../../schema/schema-browser.rst:35
+#: f2eab2f2ea4742b39fab13dfb1ede812
+msgid "Entity statement"
+msgstr ""
+
+#: ../../../schema/schema-browser.rst:38
+#: 2d13a0614e4d411ba3104b5d117fbd85
+msgid "View the `Entity Statement JSON schema <../_static/entity-statement.json>`_ or explore it using the viewer below."
+msgstr ""
+
+#: ../../../schema/schema-browser.rst:48
+#: 9f547169d6ed4be7a3d7e355c7650bff
+msgid "Person statement"
+msgstr ""
+
+#: ../../../schema/schema-browser.rst:50
+#: bccfd2ee2cf94e26a4191d03faf2ca4a
+msgid "View the `Person Statement JSON schema <../_static/person-statement.json>`_ or explore it using the viewer below."
+msgstr ""
