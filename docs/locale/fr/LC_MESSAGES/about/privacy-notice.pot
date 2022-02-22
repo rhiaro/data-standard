@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, OpenOwnership
+# This file is distributed under the same license as the Beneficial Ownership Data Standard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Amy Guy <amy.guy@opendataservices.coop>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beneficial Ownership Data Standard 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-20 22:32+0000\n"
+"PO-Revision-Date: 2022-02-21 16:17+0000\n"
+"Last-Translator: Amy Guy <amy.guy@opendataservices.coop>, 2022\n"
+"Language-Team: French (https://www.transifex.com/OpenDataServices/teams/95583/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../../about/privacy-notice.rst:2 ee6d365c25fd49168862ae091a951474
+msgid "Privacy Notice"
+msgstr "Le notice private"
+
+#: ../../../about/privacy-notice.rst:4 cc27aeffca7f4079beb981ca048a2d49
+msgid ""
+"Open Ownership's full privacy notice, covering all of our services can be "
+"found `on our main website <https://openownership.org/privacy>`_."
+msgstr ""
+"Le full notice privat de Open Ownership, qui cover tous notre services peut "
+"etre trouver sur notre site web premier "
+"<https://openownership.org/privacy>`_."
